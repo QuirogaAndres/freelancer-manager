@@ -1,7 +1,7 @@
 {
   "expo": {
-    "name": "Portfolio",
-    "slug": "portfolio-app",
+    "name": "Freelance Manager",
+    "slug": "freelance-manager",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
@@ -16,11 +16,11 @@
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#0D0D14"
       },
-      "package": "com.andres.portfolio"
+      "package": "com.andres.freelancemanager"
     },
     "extra": {
       "eas": {
-        "projectId": "990f4441-f3d3-4a64-a304-26349dbae7c6"
+        "projectId": "ef9da07a-d02a-450f-9d5c-a806e2a05983"
       }
     }
   }

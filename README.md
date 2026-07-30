@@ -1,15 +1,15 @@
-# 📄 Portfolio App
+# Freelance Manager
 
 Tu portfolio personal instalable como APK. Sin Play Store.
 
-## 🚀 Setup
+## Setup
 
 ```bash
 npm install
 npx expo start
 ```
 
-## ✏️ Personalizar
+## Personalizar
 
 **Todo lo que necesitás editar está en UN solo archivo:**
 ```
@@ -18,19 +18,14 @@ src/data/portfolio.js
 
 Buscá los comentarios `← TODO` para saber qué cambiar:
 
-```js
-photo:    null,           // ← TODO: URL de tu foto
-github:   'https://github.com/tu-usuario',   // ← TODO
-linkedin: 'https://linkedin.com/in/...',     // ← TODO
-email:    'tu@email.com',                    // ← TODO
-whatsapp: '+591XXXXXXXXX',                   // ← TODO
+```js          
+github:   'https://github.com/QuirogaAndres',   
+linkedin: 'www.linkedin.com/in/andrés-quiroga-850a92362',     
+email:    'andres.quiroga.remote@gmail.com',                    
 ```
 
-Para cambiar la foto, podés:
-- Ponerle la URL de una foto online: `photo: 'https://...'`
-- O dejar `null` para mostrar las iniciales AQ
 
-## 📱 Generar APK
+## Generar APK
 
 ```bash
 npm install -g eas-cli
@@ -38,7 +33,7 @@ eas login
 eas build --platform android --profile preview
 ```
 
-## 📁 Estructura
+## Estructura
 
 ```
 portfolio-app/
